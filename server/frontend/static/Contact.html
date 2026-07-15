@@ -1,70 +1,66 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Contact Us - Best Cars</title>
 </head>
+<body>
 <div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-        <h1>Contact Us</h1>
-        Welcome to Best Cars dealership, home to the best cars in North America. We deal in selling domestic and imported cars at reasonable prices.
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; height: 1in;">
+        <div class="container-fluid">
+            <h2 style="padding-right: 5%;">Dealerships</h2>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </nav>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+    <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+        
+        <div class="banner" style="padding: 20px; text-align: center;">
+            <h1 class="small_header">Contact Our Dealership</h1>
+            <p class="details">Have questions? We would love to hear from you. Get in touch with our support team or visit our showroom floor.</p>
         </div>
-      </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+        <div class="row">
+            
+            <div class="card" style="width: 40%;">
+                <img class="img_icon" src="/static/phone-icon.png" alt="Phone Icon" style="margin-top: 15px;">
+                <img class="card-img-top" src="/static/supportteam.png" alt="Support Team" style="max-height: 180px; object-fit: cover; margin-top: 15px;">
+                
+                <div class="title">Customer Support</div>
+                <div class="details" style="text-align: center;">
+                    <p><strong>Phone:</strong> +1 (800) 555-0199</p>
+                    <p><strong>Email:</strong> support@bestcars.com</p>
+                    <p>Our phone hotlines are available 24/7 to assist with purchasing inquiries.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 40%;">
+                <img class="img_icon" src="/static/location-icon.png" alt="Location Icon" style="margin-top: 15px;">
+                <img class="card-img-top" src="/static/showroom.png" alt="Our Showroom" style="max-height: 180px; object-fit: cover; margin-top: 15px;">
+                
+                <div class="title">Our Showroom</div>
+                <div class="details" style="text-align: center;">
+                    <p><strong>Address:</strong> 123 Main Street, New York, NY</p>
+                    <p><strong>Hours:</strong> Mon - Sat: 9:00 AM - 6:00 PM</p>
+                    <p>Drop by anytime to take a test drive with one of our specialized professionals.</p>
+                </div>
+            </div>
+
         </div>
-      </div>
     </div>
-    </div>
-    </div>
-    
 </div>
-
+</body>
 </html>
